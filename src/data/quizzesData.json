@@ -6,36 +6,36 @@
         "id": 1,
         "question": "¿Qué es un programa informático según los apuntes de Entornos de Desarrollo?",
         "options": [
+          "Un conjunto de piezas físicas, cables y periféricos que se montan en el ordenador",
+          "Una licencia cerrada que impide ver, copiar, modificar o redistribuir el código",
           "Una serie de órdenes que se llevan a cabo secuencialmente sobre un conjunto de datos",
-          "Un conjunto exclusivo de componentes físicos y periféricos",
-          "Una colección de licencias de software propietario",
-          "Un documento de requisitos escrito por el cliente"
+          "El documento donde el cliente anota precios, plazos de entrega y el hardware a comprar"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Un programa es una serie de órdenes que se llevan a cabo secuencialmente sobre un conjunto de datos para resolver un problema determinado."
       },
       {
         "id": 2,
         "question": "¿Cómo se define el software en la unidad didáctica?",
         "options": [
-          "Es únicamente el sistema operativo de un ordenador",
           "Suma total de programas, procedimientos, reglas, documentación asociada y datos",
-          "Conjunto de componentes físicos de la máquina",
-          "Cualquier código que no se puede compilar"
+          "Únicamente el sistema operativo instalado, sin contar programas, datos ni manuales",
+          "El conjunto de placas, cables, memoria y periféricos que componen la máquina física",
+          "Cualquier archivo de texto que no se puede compilar ni ejecutar en un ordenador"
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "Software es la suma total de programas, procedimientos, reglas, documentación y datos que pertenecen a un sistema de cómputo."
       },
       {
         "id": 3,
         "question": "¿Qué elementos forman un Sistema Informático?",
         "options": [
-          "Solo procesador y memoria RAM",
-          "Equipos informáticos, software, usuarios/administradores y las relaciones entre ellos",
-          "Solo las bases de datos y los IDEs",
-          "Licencias de software libre y código abierto"
+          "Solo el procesador, la memoria RAM y el disco, sin contar a las personas ni al software",
+          "Únicamente las bases de datos, los editores de código y los entornos de desarrollo",
+          "Las licencias de software libre y el código abierto publicado en un repositorio público",
+          "Equipos informáticos, software, usuarios/administradores y las relaciones entre ellos"
         ],
-        "answer": 1,
+        "answer": 3,
         "explanation": "Un sistema informático incluye equipos informáticos, software, usuarios/administradores y las relaciones entre todos ellos."
       },
       {
@@ -43,33 +43,33 @@
         "question": "¿En qué clasificación de software se encuadra un Sistema Operativo?",
         "options": [
           "Software de aplicación",
-          "Software de desarrollo",
           "Software de sistema",
+          "Software de desarrollo",
           "Software libre comercial"
         ],
-        "answer": 2,
+        "answer": 1,
         "explanation": "El software de sistema permite que el sistema funcione e interactúe con el hardware, teniendo como ejemplo principal el Sistema Operativo."
       },
       {
         "id": 5,
         "question": "¿Qué libertad otorga el Software Libre (Free Software)?",
         "options": [
-          "Ninguna, es de pago estricto",
-          "El autor cede las libertades de ver, usar, modificar y redistribuir el código",
-          "Obliga a no mostrar nunca el código fuente",
-          "Solo permite usarlo durante 30 días de prueba"
+          "Ninguna libertad: hay que pagar y el código fuente permanece cerrado",
+          "Obliga a ocultar el código fuente y prohíbe estudiarlo o adaptarlo",
+          "Solo autoriza treinta días de prueba y después bloquea el programa",
+          "El autor cede las libertades de ver, usar, modificar y redistribuir el código"
         ],
-        "answer": 1,
+        "answer": 3,
         "explanation": "El autor de software libre cede al usuario la libertad de ver, usar y modificar el código (por ejemplo, bajo licencia GPL)."
       },
       {
         "id": 6,
         "question": "¿Qué define al Software Propietario?",
         "options": [
-          "Aquel que carece de derechos de autor",
+          "Aquel que se publica sin autor y cualquiera puede apropiárselo",
           "Software que no es libre y cuyos derechos están reservados",
-          "Software que se regala con publicidad",
-          "Código que solo se puede ejecutar en Linux"
+          "Software que se reparte gratis a cambio de mostrar publicidad",
+          "Código que únicamente puede ejecutarse dentro de un sistema Linux"
         ],
         "answer": 1,
         "explanation": "Software propietario es todo aquel software que no es libre y tiene sus derechos de uso y copia reservados."
@@ -78,24 +78,24 @@
         "id": 7,
         "question": "Según el Manifiesto Ágil, ¿qué se valora más respecto a la documentación?",
         "options": [
-          "Documentación extensiva sobre software funcionando",
           "Software funcionando sobre documentación extensiva",
-          "Seguir un plan rígido sobre responder al cambio",
-          "Negociación de contratos sobre colaboración"
+          "Documentación extensiva antes que el software que ya funciona",
+          "Seguir un plan cerrado antes que responder a un cambio",
+          "Negociar el contrato antes que colaborar con el cliente"
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "Uno de los 4 valores del Manifiesto Ágil prioriza 'Software funcionando sobre documentación extensiva'."
       },
       {
         "id": 8,
         "question": "¿Qué es Scrum?",
         "options": [
-          "Un lenguaje de programación compilado",
+          "Un lenguaje compilado que traduce el fuente a instrucciones de máquina",
+          "Un sistema centralizado con una sola copia del historial en un servidor",
           "Un marco de trabajo ágil iterativo e incremental para productos complejos",
-          "Una herramienta de control de versiones centralizado",
-          "Un entorno de pruebas unitarias para Java"
+          "Una librería de pruebas unitarias para comprobar clases escritas en Java"
         ],
-        "answer": 1,
+        "answer": 2,
         "explanation": "Scrum es un marco de trabajo ágil para desarrollar productos complejos en ciclos iterativos llamados Sprints."
       },
       {
@@ -114,36 +114,36 @@
         "id": 10,
         "question": "¿Cuál es la función principal del Scrum Master?",
         "options": [
-          "Escribir todo el código fuente del proyecto",
-          "Actuar como facilitador, coach y eliminar impedimentos del equipo",
-          "Vender la aplicación en el mercado",
-          "Controlar los presupuestos financieros"
+          "Escribir personalmente todo el código que el equipo entrega en el sprint",
+          "Fijar el precio de venta y negociar los contratos con los clientes",
+          "Aprobar los presupuestos y decidir las contrataciones del departamento",
+          "Actuar como facilitador, coach y eliminar impedimentos del equipo"
         ],
-        "answer": 1,
+        "answer": 3,
         "explanation": "El Scrum Master es el facilitador del marco Scrum, guía al equipo y elimina obstáculos que mermen la productividad."
       },
       {
         "id": 11,
         "question": "¿Qué es un Sprint en Scrum?",
         "options": [
+          "La reunión diaria de quince minutos en la que cada persona cuenta en qué está trabajando",
+          "El informe final donde se recogen los resultados de las pruebas de integración del sistema",
           "Un bloque temporal fijo de 1 a 4 semanas para construir un incremento utilizable",
-          "Una reunión de 15 minutos diaria",
-          "El documento final de pruebas de integración",
-          "Un comando para subir cambios al servidor"
+          "La orden de la terminal que envía los commits locales a la rama del servidor remoto"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Un Sprint es una iteración temporal fija de entre 2 y 4 semanas (o 1 a 4 semanas) donde se entrega un incremento de producto."
       },
       {
         "id": 12,
         "question": "¿Qué tipo de sistema es Git?",
         "options": [
-          "Sistema de Control de Versiones Centralizado",
           "Sistema de Control de Versiones Distribuido (DVCS)",
-          "Base de datos relacional para Java",
-          "Entorno Integrado de Desarrollo (IDE)"
+          "Sistema de control de versiones con una sola copia central",
+          "Motor de base de datos relacional para programas escritos en Java",
+          "Entorno integrado en el que se escribe y se depura el código"
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "Git es un sistema de control de versiones distribuido donde cada copia local posee el historial completo."
       },
       {
@@ -151,35 +151,35 @@
         "question": "¿Qué comando inicializa un nuevo repositorio Git en un directorio?",
         "options": [
           "git start",
-          "git init",
           "git create",
+          "git init",
           "git new"
         ],
-        "answer": 1,
+        "answer": 2,
         "explanation": "El comando 'git init' crea la estructura de un repositorio nuevo de Git en el directorio actual."
       },
       {
         "id": 14,
         "question": "¿Qué comando crea una copia local de un repositorio existente en un servidor?",
         "options": [
-          "git copy",
           "git clone",
+          "git copy",
           "git download",
           "git pull"
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "'git clone' crea una copia local de un repositorio existente indicando su ruta o URL."
       },
       {
         "id": 15,
         "question": "¿Qué comando guarda los cambios del Index en el HEAD local?",
         "options": [
-          "git save -m 'mensaje'",
-          "git commit -m 'mensaje'",
-          "git push -m 'mensaje'",
-          "git add -m 'mensaje'"
+          "git save --all -m 'mensaje'",
+          "git push --tags -m 'mensaje'",
+          "git add --update -m 'mensaje'",
+          "git commit -m 'mensaje'"
         ],
-        "answer": 1,
+        "answer": 3,
         "explanation": "'git commit -m \"mensaje\"' graba las modificaciones del Index en la cabeza (HEAD) del repositorio local."
       }
     ]
@@ -191,24 +191,24 @@
         "id": 16,
         "question": "¿En qué fase del ciclo de vida del software los errores tienen el mayor impacto y coste?",
         "options": [
-          "Fase de Codificación",
           "Fase de Análisis",
+          "Fase de Codificación",
           "Fase de Pruebas Unitarias",
           "Fase de Mantenimiento"
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "La fase de análisis es la más crítica; los errores cometidos en esta etapa inicial son los que causan mayor impacto en el proyecto."
       },
       {
         "id": 17,
         "question": "¿Qué documento clave se obtiene al finalizar la fase de Análisis?",
         "options": [
+          "Guía de instalación y puesta en marcha para el usuario final",
+          "Fichero de bytecode .class listo para la máquina virtual",
           "Documento de Especificación de Requisitos Software (ERS)",
-          "Guía de instalación para el usuario final",
-          "Bytecode ejecutable .class",
-          "Reporte de errores de producción"
+          "Informe de incidencias detectadas ya en el entorno de producción"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Al finalizar el análisis se genera el documento de Especificación de Requisitos Software (ERS) con requisitos funcionales y no funcionales."
       },
       {
@@ -228,11 +228,11 @@
         "question": "¿Qué tipo de prueba verifica los módulos de software de forma individual?",
         "options": [
           "Prueba de integración",
-          "Prueba unitaria",
           "Prueba de explotación",
-          "Prueba de sistema"
+          "Prueba de sistema",
+          "Prueba unitaria"
         ],
-        "answer": 1,
+        "answer": 3,
         "explanation": "Las pruebas unitarias comprueban el correcto funcionamiento de cada módulo por separado (ej. JUnit en Java)."
       },
       {
@@ -251,24 +251,24 @@
         "id": 21,
         "question": "¿Qué tipo de mantenimiento adapta la aplicación a nuevos entornos de software o hardware?",
         "options": [
-          "Mantenimiento Adaptativo",
           "Mantenimiento Correctivo",
           "Mantenimiento Evolutivo",
-          "Mantenimiento Perfectivo"
+          "Mantenimiento Perfectivo",
+          "Mantenimiento Adaptativo"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "El mantenimiento adaptativo adapta la aplicación a nuevos entornos operativos o de hardware."
       },
       {
         "id": 22,
         "question": "¿Cuál es el tamaño recomendado para un equipo de desarrollo en Scrum?",
         "options": [
-          "Entre 1 y 2 personas",
           "Entre 5 y 9 personas",
+          "Entre 1 y 2 personas",
           "Exactamente 20 personas",
           "Sin límite de integrantes"
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "Un equipo de desarrollo de Scrum suele ser autoorganizado y estar compuesto por entre 5 y 9 miembros."
       },
       {
@@ -276,11 +276,11 @@
         "question": "¿Cuántos Product Owners debe tener un equipo Scrum?",
         "options": [
           "Un Product Owner por cada desarrollador",
-          "Exactamente 1 Product Owner",
           "Mínimo 3 Product Owners",
+          "Exactamente 1 Product Owner",
           "No se necesita Product Owner"
         ],
-        "answer": 1,
+        "answer": 2,
         "explanation": "Un equipo Scrum debe contar con exactamente 1 Product Owner para evitar órdenes contradictorias."
       },
       {
@@ -288,59 +288,59 @@
         "question": "¿Qué artefacto de Scrum contiene la lista completa y priorizada de tareas del producto?",
         "options": [
           "Sprint Backlog",
-          "Product Backlog",
           "Incremento",
-          "Burndown Chart"
+          "Burndown Chart",
+          "Product Backlog"
         ],
-        "answer": 1,
+        "answer": 3,
         "explanation": "El Product Backlog es la lista principal de tareas, requisitos y mejoras del producto ordenada por prioridad por el PO."
       },
       {
         "id": 25,
         "question": "¿Cuál es la duración máxima establecida para el Scrum Diario (Daily Scrum)?",
         "options": [
-          "1 hora",
           "15 minutos",
+          "1 hora",
           "30 minutos",
           "2 horas"
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "El Daily Scrum es una reunión de sincronización rápida de un máximo de 15 minutos."
       },
       {
         "id": 26,
         "question": "¿Cuáles son las 3 preguntas clave del Daily Scrum?",
         "options": [
+          "¿Cuánto cobro?, ¿Cuándo acaba esto?, ¿Qué hora es ahora?",
           "¿Qué hice ayer?, ¿Qué haré hoy?, ¿Qué impedimentos tengo?",
-          "¿Cuánto cobro?, ¿Cuándo acabo?, ¿Qué hora es?",
           "¿Quién es el cliente?, ¿Qué lenguaje uso?, ¿Dónde está el servidor?",
-          "¿Cuál es la licencia?, ¿Qué IDE uso?, ¿Cuántos bugs hay?"
+          "¿Qué licencia lleva?, ¿Qué editor uso?, ¿Cuántos fallos quedan?"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Cada miembro responde: ¿Qué hice ayer?, ¿Qué voy a hacer hoy? y ¿Qué impedimentos o bloqueos tengo?"
       },
       {
         "id": 27,
         "question": "En Git, ¿qué es el 'Working Directory' (Directorio de trabajo)?",
         "options": [
-          "El servidor remoto en la nube",
+          "El servidor remoto donde se publica la copia compartida del repositorio",
+          "La zona intermedia en la que se preparan los archivos antes del commit",
           "El árbol local con los archivos físicos que el usuario edita",
-          "La zona intermedia antes del commit",
-          "El puntero al último commit"
+          "El puntero que señala el último commit de la rama en la que trabajas"
         ],
-        "answer": 1,
+        "answer": 2,
         "explanation": "El Directorio de Trabajo contiene los archivos físicos editados activamente en el ordenador."
       },
       {
         "id": 28,
         "question": "¿Qué función cumple el Index o Staging Area en Git?",
         "options": [
-          "Almacenar las claves públicas SSH",
           "Actuar como zona intermedia de preparación de archivos antes del commit",
-          "Guardar la base de datos remota",
-          "Borrar las ramas eliminadas"
+          "Guardar las claves públicas SSH con las que el equipo entra al servidor",
+          "Conservar la base de datos que está desplegada en el entorno remoto",
+          "Borrar del disco las ramas que ya se fusionaron con la principal"
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "El Index (Staging Area) actúa como un espacio intermedio donde se preparan los archivos que se incluirán en el próximo commit."
       },
       {
@@ -348,21 +348,21 @@
         "question": "¿Qué comando añade todos los archivos modificados al Index en Git?",
         "options": [
           "git commit .",
-          "git add .",
           "git push .",
-          "git status ."
+          "git status .",
+          "git add ."
         ],
-        "answer": 1,
+        "answer": 3,
         "explanation": "'git add .' (o 'git add <filename>') registra los cambios en la zona intermedia (Index)."
       },
       {
         "id": 30,
         "question": "¿Qué comando envía los cambios del HEAD local a la rama master remota?",
         "options": [
-          "git upload master",
+          "git upload --all origin master",
           "git push origin master",
-          "git send origin master",
-          "git commit master"
+          "git send --tags origin master",
+          "git commit --amend origin master"
         ],
         "answer": 1,
         "explanation": "'git push origin master' transmite las confirmaciones locales a la rama máster del servidor remoto 'origin'."
@@ -376,24 +376,24 @@
         "id": 31,
         "question": "¿Qué caracteriza al Modelo en Cascada clásico?",
         "options": [
+          "Permite saltar de una fase a otra cuando el cliente cambia de idea",
           "Es secuencial y rígido; las fases se ejecutan sin vuelta atrás",
-          "Permite reordenar las fases dinámicamente",
-          "No requiere fase de análisis",
-          "Utiliza tableros de tarjetas de Toyota"
+          "Arranca por el código y puede prescindir de la fase de análisis",
+          "Organiza el trabajo con un tablero de tarjetas como el de Toyota"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "El modelo en cascada tradicional es rígido; sus fases se ejecutan en orden secuencial sin margen de vuelta atrás."
       },
       {
         "id": 32,
         "question": "¿Qué distingue al Modelo en V?",
         "options": [
-          "Cada fase de desarrollo se empareja de forma jerárquica con una fase de validación/prueba",
-          "No realiza pruebas unitarias",
-          "Es un modelo puramente orientado a objetos",
-          "Utiliza programación en parejas obligatoria"
+          "Omite las pruebas unitarias durante la construcción y concentra la validación en un control final",
+          "Se centra en clases y objetos, y no empareja cada fase del desarrollo con un nivel de prueba",
+          "Exige programar siempre en parejas e integrar los cambios del equipo varias veces al día",
+          "Cada fase de desarrollo se empareja de forma jerárquica con una fase de validación/prueba"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "El modelo en V empareja jerárquicamente cada fase del ciclo de vida con su correspondiente nivel de prueba y validación."
       },
       {
@@ -413,23 +413,23 @@
         "question": "¿Qué metodología ágil fue desarrollada por Toyota y se basa en el 'sistema de tarjetas'?",
         "options": [
           "Scrum",
-          "Kanban",
           "XP",
+          "Kanban",
           "Cascada"
         ],
-        "answer": 1,
+        "answer": 2,
         "explanation": "Kanban (sistema de tarjetas) fue creado por Toyota para controlar por demanda la fabricación y limitar el trabajo en curso (WIP)."
       },
       {
         "id": 35,
         "question": "¿Qué práctica es representativa del modelo XP (Programación Extrema)?",
         "options": [
+          "Reuniones diarias de cuatro horas con todo el equipo",
+          "Construir el sistema sin contar con el cliente",
           "Programación en parejas e integración continua",
-          "Reuniones de 4 horas diarias",
-          "Desarrollo sin cliente",
-          "Uso exclusivo de diagramas de Gantt"
+          "Planificar el trabajo solo con un diagrama de Gantt"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "XP favorece las relaciones interpersonales, la programación por parejas, el diseño sencillo y la integración continua."
       },
       {
@@ -448,12 +448,12 @@
         "id": 37,
         "question": "En Scrum, ¿qué es el Incremento?",
         "options": [
-          "El resultado utilizable completado durante el Sprint que cumple la definición de Hecho (DoD)",
-          "El presupuesto gastado en la reunión",
-          "El número de líneas de código añadidas",
-          "La suma de errores no corregidos"
+          "El presupuesto que el equipo declara haber consumido al terminar la planificación del sprint",
+          "El número de líneas de código añadidas al repositorio desde que empezó el sprint anterior",
+          "La suma de defectos que siguen abiertos y que el equipo todavía no ha conseguido corregir",
+          "El resultado utilizable completado durante el Sprint que cumple la definición de Hecho (DoD)"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "El Incremento (meta del Sprint) es el producto final funcional utilizable entregado al acabar la iteración."
       },
       {
@@ -484,12 +484,12 @@
         "id": 40,
         "question": "¿Qué objetivo tiene la reunión de Refinamiento (Backlog Grooming)?",
         "options": [
+          "Enseñar al cliente el incremento terminado y recoger si lo acepta",
+          "Redactar los manuales que acompañarán la entrega final del producto",
           "Pulir y dividir historias de usuario para los próximos Sprints",
-          "Demostrar el software terminado al cliente final",
-          "Escribir las guías de usuario finales",
-          "Decidir los salarios de los desarrolladores"
+          "Revisar los salarios y las contrataciones del equipo de desarrollo"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "El refinamiento sirve para detallar, dividir y estimar con antelación las historias que vendrán en futuros Sprints."
       },
       {
@@ -509,33 +509,33 @@
         "question": "¿Cómo se elimina una rama en Git localmente?",
         "options": [
           "git delete branch <nombre>",
-          "git branch -d <nombre>",
           "git remove <nombre>",
-          "git checkout --delete <nombre>"
+          "git checkout --delete <nombre>",
+          "git branch -d <nombre>"
         ],
-        "answer": 1,
+        "answer": 3,
         "explanation": "'git branch -d <nombre_rama>' elimina la rama especificada."
       },
       {
         "id": 43,
         "question": "¿Qué comando integra los cambios de la rama 'feature_x' dentro de la rama activa 'master'?",
         "options": [
-          "git merge feature_x",
           "git combine feature_x",
           "git join feature_x",
-          "git pull feature_x"
+          "git pull feature_x",
+          "git merge feature_x"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Estando en la rama máster, 'git merge feature_x' fusiona los cambios de feature_x en la rama activa."
       },
       {
         "id": 44,
         "question": "¿Cómo debe proceder un desarrollador si ocurre un conflicto durante un merge en Git?",
         "options": [
-          "Borrar el repositorio entero y empezar de cero",
+          "Volver a clonar el repositorio remoto y abandonar la rama en la que apareció el conflicto",
           "Editar los archivos con conflicto manualmente, marcarlos con 'git add' y hacer 'git commit'",
-          "Ejecutar git push forzado inmediatamente",
-          "Apagar el ordenador"
+          "Lanzar un push forzado para que el servidor adopte la copia local sin mirar los conflictos",
+          "Dejar los marcadores del conflicto en el archivo y seguir trabajando en otra rama"
         ],
         "answer": 1,
         "explanation": "Los conflictos deben resolverse manualmente editando los archivos, agregándolos con 'git add' y confirmando con 'git commit'."
@@ -544,12 +544,12 @@
         "id": 45,
         "question": "¿Qué comando conecta un repositorio local a un servidor remoto?",
         "options": [
-          "git connect <url>",
           "git remote add origin <url>",
+          "git connect <url>",
           "git link origin <url>",
           "git server set <url>"
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "'git remote add origin <server>' vincula el repositorio local a un servidor de alojamiento remoto."
       }
     ]
@@ -561,12 +561,12 @@
         "id": 46,
         "question": "¿Qué dos componentes principales integran la CPU en la arquitectura Von Neumann?",
         "options": [
-          "Unidad de Control (UC) y Unidad Aritmético-Lógica (ALU)",
-          "Memoria RAM y Disco Duro",
-          "Navegador y Compilador",
-          "Teclado y Monitor"
+          "La memoria RAM junto con el disco donde se guardan los programas",
+          "El navegador web y el compilador que traduce el código fuente",
+          "Los periféricos de entrada y de salida, como el teclado y la pantalla",
+          "Unidad de Control (UC) y Unidad Aritmético-Lógica (ALU)"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "La CPU según Von Neumann consta de la Unidad de Control (coordina operaciones) y la ALU (operaciones matemáticas y lógicas)."
       },
       {
@@ -585,24 +585,24 @@
         "id": 48,
         "question": "¿Cuál es la tarea del compilador JIT (Just-In-Time) en la JVM?",
         "options": [
+          "Eliminar los comentarios del fuente antes de generar el ejecutable",
+          "Descargar de internet las librerías que el proyecto declara usar",
           "Traducir partes de Bytecode a código máquina nativo durante la ejecución",
-          "Borrar los comentarios del código fuente",
-          "Descargar dependencias de internet",
-          "Formatear el texto del código"
+          "Ajustar la sangría y el formato del código mientras se escribe"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "El compilador JIT compila líneas de Bytecode a código máquina nativo sobre la marcha para mejorar la velocidad."
       },
       {
         "id": 49,
         "question": "¿Qué elementos contiene el JRE (Java Runtime Environment)?",
         "options": [
-          "Solamente el compilador javac",
           "La JVM, clases principales y archivos auxiliares necesarios para ejecutar aplicaciones Java",
-          "Un entorno gráfico para editar imágenes",
-          "Solo las guías de instalación en PDF"
+          "Únicamente el compilador javac, sin la máquina virtual, las clases base ni las librerías",
+          "Un editor gráfico para retocar imágenes y maquetas, no para ejecutar aplicaciones Java",
+          "Solo los manuales de instalación en PDF, sin runtime, sin JVM y sin librerías de Java"
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "El JRE proporciona los requisitos básicos para ejecutar aplicaciones Java: contiene la JVM, las clases principales y librerías."
       },
       {
@@ -610,9 +610,9 @@
         "question": "¿Qué diferencia al JDK del JRE?",
         "options": [
           "El JDK incluye herramientas de desarrollo (compilador javac, javadoc) además del JRE",
-          "El JDK es solo para ejecutar, no para programar",
-          "El JDK reemplaza al sistema operativo",
-          "El JDK no incluye la JVM"
+          "Un paquete que solo ejecuta programas y no incluye herramientas para escribir código",
+          "Un sustituto del sistema operativo, que arranca el equipo en lugar de Windows o Linux",
+          "Un kit de desarrollo que, aun así, no incorpora la máquina virtual necesaria para Java"
         ],
         "answer": 0,
         "explanation": "El JDK (Java Development Kit) es el paquete completo de desarrollo que incluye herramientas como `javac` más el JRE."
@@ -621,48 +621,48 @@
         "id": 51,
         "question": "¿Qué representa la 'Velocidad del Equipo' en Scrum?",
         "options": [
+          "La velocidad de la conexión a internet del equipo, medida en megabits por segundo",
+          "Los minutos máximos de la reunión diaria antes de volver cada persona a su sitio",
           "La cantidad de puntos de historia que el equipo completa con éxito por Sprint",
-          "Los megabits por segundo de la conexión a internet",
-          "La duración de la reunión daily",
-          "El número de líneas de código escritas por hora"
+          "La cantidad de líneas de código que cada persona consigue escribir durante una hora"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "La velocidad del equipo es el promedio de puntos de historia que el grupo es capaz de entregar finalizados en cada Sprint."
       },
       {
         "id": 52,
         "question": "¿Qué información muestra el gráfico Burndown (Burndown Chart)?",
         "options": [
-          "El trabajo pendiente acumulado a lo largo de los días del Sprint",
-          "El salario consumido por el equipo",
-          "La lista de fallos del servidor",
-          "Los días de vacaciones restantes del Scrum Master"
+          "El dinero que el equipo ha gastado desde que empezó el sprint",
+          "El listado de caídas y errores que ha registrado el servidor",
+          "Los días de vacaciones que le quedan al Scrum Master este trimestre",
+          "El trabajo pendiente acumulado a lo largo de los días del Sprint"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "El Burndown Chart grafica el avance día a día mostrando cómo decrece el trabajo pendiente respecto al tiempo pactado."
       },
       {
         "id": 53,
         "question": "¿En qué dos teorías principales se sustenta Scrum?",
         "options": [
-          "Empirismo y pensamiento Lean",
           "Cascada y prototipado",
+          "Empirismo y pensamiento Lean",
           "Programación estructurada y modular",
           "Hardware y Software"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Scrum se basa en el empirismo (aprendizaje basado en la experiencia) y el pensamiento Lean (reducir desperdicio)."
       },
       {
         "id": 54,
         "question": "¿Cuáles son los tres pilares de Scrum?",
         "options": [
-          "Transparencia, Inspección y Adaptación",
           "Análisis, Diseño y Codificación",
+          "Transparencia, Inspección y Adaptación",
           "Product Owner, Scrum Master y Team",
           "Commit, Push y Pull"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Los tres pilares empíricos de Scrum son Transparencia, Inspección y Adaptación."
       },
       {
@@ -670,9 +670,9 @@
         "question": "¿Qué es la Definición de Hecho (Definition of Done - DoD)?",
         "options": [
           "El criterio acordado que determina si un elemento cumple todos los estándares de calidad para entregarse",
-          "El momento en que se firma el contrato financiero",
-          "El cierre del servidor remoto",
-          "La lista de requerimientos sin priorizar"
+          "El momento en que se firma el contrato con el cliente y queda cerrado el presupuesto del proyecto",
+          "El apagado programado del servidor remoto cuando el equipo da por terminada la jornada de desarrollo",
+          "El inventario de peticiones del cliente, sin priorizar, sin estimar y sin un criterio de calidad"
         ],
         "answer": 0,
         "explanation": "La DoD es el entendimiento compartido sobre qué significa que un trabajo esté completo y utilizable con calidad."
@@ -682,23 +682,23 @@
         "question": "En Git, ¿qué comando compara las diferencias entre dos ramas antes de fusionar?",
         "options": [
           "git compare rama1 rama2",
-          "git diff rama1 rama2",
           "git log rama1 rama2",
+          "git diff rama1 rama2",
           "git status rama1 rama2"
         ],
-        "answer": 1,
+        "answer": 2,
         "explanation": "'git diff <source_branch> <target_branch>' muestra las líneas de diferencia entre dos ramas."
       },
       {
         "id": 57,
         "question": "¿Qué dos operaciones ejecuta internamente el comando 'git pull'?",
         "options": [
-          "git fetch seguido de git merge",
           "git add seguido de git commit",
           "git clone seguido de git push",
-          "git branch seguido de git checkout"
+          "git branch seguido de git checkout",
+          "git fetch seguido de git merge"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "'git pull' baja los cambios remotos (fetch) y los fusiona (merge) automáticamente en la rama activa local."
       },
       {
@@ -706,23 +706,23 @@
         "question": "¿Qué comando permite guardar temporalmente cambios no confirmados para limpiar el área de trabajo?",
         "options": [
           "git hold",
-          "git stash",
           "git pause",
+          "git stash",
           "git store"
         ],
-        "answer": 1,
+        "answer": 2,
         "explanation": "'git stash' guarda temporalmente las modificaciones locales dejando el directorio de trabajo limpio sin necesidad de hacer commit."
       },
       {
         "id": 59,
         "question": "¿Qué hace el comando 'git rebase <rama_base>'?",
         "options": [
-          "Aplica los commits de la rama actual sobre la punta de otra rama base para crear una historia lineal",
-          "Elimina todos los archivos del proyecto",
-          "Crea una copia de seguridad en un archivo zip",
-          "Cambia el mensaje del último commit"
+          "Borra del disco todos los archivos del proyecto y también las ramas, y deja la carpeta vacía",
+          "Genera una copia de seguridad comprimida de toda la rama y la guarda en un archivo zip",
+          "Cambia solo el mensaje del último commit y deja el resto de la historia exactamente igual",
+          "Aplica los commits de la rama actual sobre la punta de otra rama base para crear una historia lineal"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "'git rebase' reorganiza el trabajo aplicando las confirmaciones sobre la rama seleccionada."
       },
       {
@@ -730,9 +730,9 @@
         "question": "¿Qué ocurre si ejecutas 'git checkout -- <filename>' en Git?",
         "options": [
           "Reemplaza los cambios locales no guardados en el Index con la versión del último commit en HEAD",
-          "Elimina el archivo permanentemente del disco duro",
-          "Envía el archivo a GitHub",
-          "Renombra el archivo con una etiqueta"
+          "Elimina el archivo en el disco y también en el historial que ya se publicó en el remoto",
+          "Sube ese archivo suelto al remoto aunque el resto de los cambios locales todavía no esté listo",
+          "Cambia el nombre del archivo en el repositorio y le asigna una etiqueta de versión"
         ],
         "answer": 0,
         "explanation": "'git checkout -- <filename>' descarta los cambios en el directorio de trabajo restaurando la versión de HEAD."
@@ -747,9 +747,9 @@
         "question": "¿Qué genera la fase de Análisis Léxico durante la compilación de un programa?",
         "options": [
           "Genera tokens o lexemas verificando que los caracteres pertenezcan al alfabeto del lenguaje",
-          "El archivo ejecutable binario final",
-          "El árbol de sintaxis abstracta",
-          "Las librerías importadas con #include"
+          "Produce el archivo binario definitivo, listo para lanzarse en el sistema sin más fases",
+          "Construye el árbol que representa la estructura gramatical completa de todo el programa",
+          "Prepara el listado de bibliotecas externas que el fuente pide con include o con import"
         ],
         "answer": 0,
         "explanation": "El análisis léxico genera los tokens (lexemas) comprobando que el conjunto de caracteres esté dentro de los permitidos."
@@ -758,60 +758,60 @@
         "id": 62,
         "question": "¿Qué comprueba la fase de Análisis Sintáctico en un compilador?",
         "options": [
-          "Que se aplican correctamente las reglas gramaticales y de construcción del lenguaje",
-          "El precio de la licencia del software",
-          "La velocidad de la tarjeta de red",
-          "La presencia de virus en el archivo"
+          "El precio de la licencia y si el programa resultante se puede redistribuir",
+          "La velocidad de la tarjeta de red mientras se está compilando el fuente",
+          "Si el archivo ejecutable contiene la firma de algún virus conocido",
+          "Que se aplican correctamente las reglas gramaticales y de construcción del lenguaje"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "El análisis sintáctico comprueba que las normas de construcción del lenguaje se apliquen correctamente."
       },
       {
         "id": 63,
         "question": "¿Cuál es el cometido del Análisis Semántico en la compilación?",
         "options": [
+          "Recolocar sangrías, espacios y saltos de línea para que el código fuente se lea con más facilidad",
           "Verificar que el significado de las construcciones es coherente para realizar acciones válidas",
-          "Formatear las pestañas del archivo",
-          "Guardar el código en la memoria RAM",
-          "Comprimir los archivos en un ZIP"
+          "Copiar el código fuente, tal como está escrito, a la memoria RAM antes de ejecutarlo",
+          "Juntar los archivos fuente y las librerías en un único archivo comprimido listo para enviarse"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "El análisis semántico se asegura de que el significado del código es coherente (ej. compatibilidad de tipos)."
       },
       {
         "id": 64,
         "question": "¿Qué componente enlaza las bibliotecas externas (import/include) para generar el programa ejecutable?",
         "options": [
+          "El analizador léxico",
+          "El intérprete de órdenes",
           "El Enlazador (Linker)",
-          "El Analizador léxico",
-          "El Intérprete de comandos",
-          "El IDE"
+          "El entorno de desarrollo"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "El enlazador junta el código objeto con las librerías necesarias para generar el código ejecutable final."
       },
       {
         "id": 65,
         "question": "¿Qué diferencia fundamental existe entre la programación estructurada y la Orientada a Objetos (POO)?",
         "options": [
+          "La estructurada mete todo el programa en un único archivo y, en Java, compila siempre más deprisa",
+          "La orientada a objetos divide el programa en clases, pero prohíbe condicionales, bucles y funciones",
           "La estructurada concentra todo en un bloque único; la POO usa objetos independientes con atributos y métodos",
-          "La estructurada es más rápida de compilar en Java",
-          "La POO no permite sentencias condicionales",
-          "No existe ninguna diferencia"
+          "Las dos organizan el programa del mismo modo y solo cambia el nombre con el que se presenta cada una"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "La programación estructurada agrupa todo en un bloque único impidiendo reutilización; la POO se compone de objetos colaborativos."
       },
       {
         "id": 66,
         "question": "¿Qué es la regla 3:5:3 en Scrum?",
         "options": [
-          "3 roles, 5 eventos y 3 artefactos",
           "3 sprints, 5 proyectos y 3 clientes",
-          "3 horas de daily, 5 horas de review y 3 de retro",
+          "3 roles, 5 eventos y 3 artefactos",
+          "3 horas de daily, 5 de review y 3 de retro",
           "3 líneas de código, 5 pruebas y 3 commits"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "La regla 3:5:3 resume la estructura fundamental de Scrum: 3 roles, 5 eventos (ceremonias) y 3 artefactos."
       },
       {
@@ -819,9 +819,9 @@
         "question": "¿Cuáles son las 'Cuatro Ces' de Scrum descritas en la guía?",
         "options": [
           "Comunicación, Colaboración, Compromiso y Continua mejora",
-          "Código, Compilación, Corrección y Calidad",
-          "Cliente, Contrato, Coste y Control",
-          "Commit, Checkout, Clone y Config"
+          "Código fuente, compilación, corrección de fallos y control de calidad",
+          "Cliente, contrato firmado, coste del proyecto y control de los plazos",
+          "Los comandos commit, checkout, clone y la configuración local de Git"
         ],
         "answer": 0,
         "explanation": "Las cuatro C de Scrum son la comunicación, la colaboración, el compromiso y la continua mejora."
@@ -830,48 +830,48 @@
         "id": 68,
         "question": "¿Cuáles son los 5 valores de Scrum integrados oficialmente en 2016?",
         "options": [
-          "Compromiso, Valor (Coraje), Foco, Honestidad (Transparencia) y Respeto",
-          "Rapidez, Calidad, Limpieza, Documentación y Dinero",
-          "Análisis, Diseño, Código, Pruebas y Mantenimiento",
-          "Git, Java, Linux, Windows y Mac"
+          "Rapidez de entrega, calidad del código, limpieza, documentación y beneficio",
+          "Las fases clásicas: análisis, diseño, código, pruebas y mantenimiento",
+          "Las herramientas Git, Java, Linux, Windows y macOS usadas por el equipo",
+          "Compromiso, Valor (Coraje), Foco, Honestidad (Transparencia) y Respeto"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Los 5 valores de Scrum enfocados en la conducta del equipo son Compromiso, Valor, Foco, Honestidad y Respeto."
       },
       {
         "id": 69,
         "question": "¿Cómo se diferencian la filosofía Ágil y el marco Scrum?",
         "options": [
+          "Scrum se aplica al hardware y la filosofía ágil solo al software de aplicación",
           "La Metodología Ágil es la filosofía global; Scrum es un marco concreto para aplicarla",
-          "Scrum es para hardware y Ágil para software",
-          "Son exactamente sinónimos sin diferencia alguna",
-          "Ágil exige documentación y Scrum la prohíbe"
+          "Son dos nombres del mismo método y no cambia nada al usar uno o el otro",
+          "Ágil exige un dosier completo y Scrum prohíbe dejar escrito cualquier documento"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Ágil es la filosofía de gestión de proyectos, mientras que Scrum es un marco específico para implementar sus principios."
       },
       {
         "id": 70,
         "question": "¿En qué se diferencia principalmente Kanban de Scrum?",
         "options": [
+          "Kanban exige un Scrum Master toda la jornada, una reunión diaria obligatoria y no sirve en un equipo sin ese rol",
+          "Scrum se lleva con tarjetas de papel en la pared y Kanban solo funciona delante de un ordenador",
           "Kanban busca un flujo continuo limitando el WIP sin Sprints fijos; Scrum usa Sprints con tiempo fijo y roles prescritos",
-          "Kanban requiere Scrum Master obligatoriamente",
-          "Scrum se hace con tarjetas de papel y Kanban con ordenadores",
-          "Kanban no se puede usar en desarrollo de software"
+          "Kanban no admite el desarrollo de software y solo organiza una cadena de montaje industrial"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Kanban se basa en flujo continuo y límites de WIP sin roles/ceremonias prescritas; Scrum utiliza iteraciones fijas (Sprints)."
       },
       {
         "id": 71,
         "question": "En Git, ¿cómo se desahacen todos los cambios locales y commits forzando la copia idéntica del servidor?",
         "options": [
-          "git fetch origin seguido de git reset --hard origin/master",
-          "git restore --all",
-          "git commit --clean",
-          "git delete master"
+          "git restore --source=HEAD --worktree --staged .",
+          "git commit --allow-empty -m 'limpiar' && git push --force",
+          "git branch -D master && git push origin --delete master",
+          "git fetch origin seguido de git reset --hard origin/master"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Para descartar todo el trabajo local y sincronizar con la rama máster del remoto se usa 'git fetch origin' y 'git reset --hard origin/master'."
       },
       {
@@ -890,12 +890,12 @@
         "id": 73,
         "question": "¿Qué comando de Git muestra el historial de confirmaciones con sus identificadores de commit?",
         "options": [
-          "git log",
           "git show-all",
           "git history",
-          "git trace"
+          "git trace",
+          "git log"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "'git log' muestra la lista cronológica de confirmaciones (commits) realizadas en el repositorio."
       },
       {
@@ -903,9 +903,9 @@
         "question": "En la arquitectura interna de Git, ¿qué es el puntero HEAD?",
         "options": [
           "La referencia al último commit de la rama local activa",
-          "El primer archivo creado en el repositorio",
-          "El nombre del servidor remoto",
-          "La clave de cifrado SSH"
+          "El primer archivo que se añadió al crear el repositorio local",
+          "El nombre con el que se registró el servidor remoto origin",
+          "La clave privada SSH que firma los commits de ese autor"
         ],
         "answer": 0,
         "explanation": "HEAD es la referencia o puntero al último commit realizado dentro de la rama activa del repositorio local."
@@ -914,12 +914,12 @@
         "id": 75,
         "question": "¿Qué comando de configuración habilita los colores en la consola de Git?",
         "options": [
-          "git config color.ui true",
           "git set color true",
           "git style console colors",
+          "git config color.ui true",
           "git option color=on"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "'git config color.ui true' activa la salida con colores para mejorar la legibilidad de la consola de Git."
       }
     ]
